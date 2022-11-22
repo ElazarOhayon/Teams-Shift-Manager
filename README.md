@@ -1,11 +1,14 @@
 # Shift-Manger-for-Teams
-Automate shifts in Microsoft Teams Auto attended and Call queues
+### Description
+
+As a result of numerous inquiries for Shift manager in Microsoft Teams. Using a mailbox calendar, I made automation shifts in Microsoft Teams Auto attended or Call queues. with Microsoft Graph we get data from the calendar and filter the relevant information. we are using Aure automation (SaaS) without dependence on a local on-premise side. We schedule the script to be daily or weekly depending on your requirements. also, we building an incoming webhook that sends you a message on the Teams Channel when the script assigned the agents (if you didn't write any information on the calendar he also send you a message)
+
+
 
 # Requirements
-you need to install the next Modules: Microsoft.Graph,MicrosoftTeams  
-> **Install-Module** Microsoft.Graph
+* we using Microsoft.Graph,MicrosoftTeams moudles you need to import them to Azure Automation > **Install-Module** Microsoft.Graph
+* the user need to be without mfa and with teams communications administrator.
 
-> **Install-Module** MicrosoftTeams
 
 # Creating App registration.
 
@@ -61,9 +64,11 @@ go to **Overview**
 
 ![image](https://user-images.githubusercontent.com/55660350/202486451-1407ab38-323c-46f0-af9e-a500d416da3c.png)
 
-please copy - **Application (client) ID**,**Directory (tenant) ID**, and **Secret Value** 
+Please copy - **Application (client) ID**,**Directory (tenant) ID**, and **Secret Value** 
 
 ![image](https://user-images.githubusercontent.com/55660350/202487067-ba32134c-8731-4e14-8d78-9783f539e063.png)
+
+
 
 
 
