@@ -6,7 +6,7 @@ As a result of numerous inquiries for Shift manager in Microsoft Teams. Using a 
 
 
 # Requirements
-* we using Microsoft.Graph,MicrosoftTeams moudles you need to import them to Azure Automation > **Install-Module** Microsoft.Graph
+* we using Microsoft.Graph,MicrosoftTeams moudles you need to import them to Azure Automation.
 * the user need to be without mfa and with teams communications administrator.
 
 
@@ -68,8 +68,37 @@ Please copy - **Application (client) ID**,**Directory (tenant) ID**, and **Secre
 
 ![image](https://user-images.githubusercontent.com/55660350/202487067-ba32134c-8731-4e14-8d78-9783f539e063.png)
 
+# azure Automation 
+The first step is to create an Azure Automation Account in your Azure subscription.
 
+1.On the Microsoft Azure portal click on Create a resource
 
+![image](https://user-images.githubusercontent.com/55660350/203351247-b649ccea-e698-41e8-b0b3-d1b19c5802ee.png)
+
+2. Search for Automation and click Create.
+
+![image](https://user-images.githubusercontent.com/55660350/203352401-b1983ce6-7b15-4847-8124-2bcac0235d6b.png)
+
+3. Enter the information like the example below: add a name, add a Resource group if you don't have one. click on Create now.
+
+![image](https://user-images.githubusercontent.com/55660350/203352462-58eaf932-628e-48a6-9e6d-d74510a6334e.png)
+
+The pricing of Azure Automation is based on the number of minutes that a job runs. With each subscription, you get **500 minutes** of job run time and **744 hours** for the watchers for free per month.
+![image](https://user-images.githubusercontent.com/55660350/203352965-a2a3b4ec-8f78-48d7-b300-c8bff7b7d3d8.png)
+
+So with the **500 free minutes**, you should be able to automate most of your daily tasks And every hour more cost only **$0.12**.
+
+## Add powershell Modules : MicrosoftTeams and Microsoft.Graph. 
+
+now after we have **Azure Automation Account**.
+we have to add the PowerShell modules used in our Runbooks scripts.
+Click on **"Browse gallery"**.
+![image](https://user-images.githubusercontent.com/55660350/203353935-dc61d9b6-eb64-4151-a4c3-f3933dd1597d.png)
+type **"Teams"** and import the Microsoft teams module.
+
+![image](https://user-images.githubusercontent.com/55660350/203354049-af11f390-a7d3-47e4-89de-374853e00731.png)
+
+do the same steps for the "Microsoft.Graph" module.
 
 
 
