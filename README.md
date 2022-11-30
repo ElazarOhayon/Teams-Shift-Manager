@@ -122,7 +122,15 @@ we need to set Credentials to be used by Azure Automation into our Runbooks.
 
 ## Create a Runbook
 
-Go to **Azure** -> **Azure Automation Account** -> ** Process Automation** -> **Runbooks** -> **Create a runbook* -> add Name and select PowerShell as Runbook type -> Create
+Go to **Azure** -> **Azure Automation Account** -> ** Process Automation** -> **Runbooks** -> **Create a runbook* -> add Name and select PowerShell as Runbook type ->** Create**
+
+Copy and Paste the following code into the Runbook and publish after you. be sure to replace **<AzureAutomationCredential>** with your own values.
+it should be your Credential name that you created before in **Azure Credential**.
+
+![image](https://user-images.githubusercontent.com/55660350/204783866-61a4c688-777b-4684-acdb-9108d1038f19.png)
+
+
+
 
 
 
