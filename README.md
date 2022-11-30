@@ -145,10 +145,36 @@ You need to provide the parameters of your App registration (What you created ab
   
   ![image](https://user-images.githubusercontent.com/55660350/204800353-d06f71a5-5a47-4094-8477-faf3a2095a3a.png)
 
-now we need to create incoming webhook 
+ ### setup incoming webhook
 
+now we build an incoming webhook that will send us a notification message after we change agents in the shift or send us a message if it's failed.
+  
 
+open your teams click 3 dots next to the Team’s Name ->**Connectors**  
 
+![image](https://user-images.githubusercontent.com/55660350/204803340-78290d46-46f6-4fb9-b2a2-65c4dd87c568.png)
+  
+  Choose **"Incoming Webhook"** and click on ** "Configure"**.
+  
+  ![image](https://user-images.githubusercontent.com/55660350/204803413-c56acfa8-3dab-4091-9fcc-c950a696c830.png)
+
+Choose a **name** and click **Create**
+  
+ ![image](https://user-images.githubusercontent.com/55660350/204803522-c35e695e-a43f-4752-91ad-aea92884f167.png)
+ 
+Copy the **URL**.
+  
+  now we need to go back to the script that we already published above.
+  
+  plesae provide the URI of the incoming webhook.
+
+![image](https://user-images.githubusercontent.com/55660350/204804075-a863ed34-5c0a-4f63-b923-88138491ec7a.png)
+  
+    please add your **Call queue Identity** (guid Identity) Example below :
+  ![image](https://user-images.githubusercontent.com/55660350/204804915-835bcceb-6381-415d-be46-2eb4bc054ee1.png)
+
+also add again your Call queue Identity here (guid Identity) Example below :
+![image](https://user-images.githubusercontent.com/55660350/204805078-4a0c84d1-b9e6-45ee-92a4-e5d50894cc88.png)
 
 
 
