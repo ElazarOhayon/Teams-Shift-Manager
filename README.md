@@ -101,6 +101,28 @@ type **"Teams"** and import the Microsoft teams module.
 do the same steps for the "Microsoft.Graph" module.
 
 
+### Add Azure Automation Credentials
+we need to set Credentials to be used by Azure Automation into our Runbooks.
+
+## Recommended settings :
+* **Username format:** @yourdomain.onmicrosoft.com.
+* **Password:** extremely complex and set to Never Expire.
+* **Sync Status:** Cloud only.
+* **Roles:** Required two Roles for this script -Teams communications administrator.
+* **Licenses:** none.
+* **MFA:** not supported.
+
+
+** Note** -the Runbooks do not have direct access to your Account Credential.
+
+ we need to create Credentials accounts, go to *Credentials* and click on "Add a credenital"
+ please Create 
+
+![image](https://user-images.githubusercontent.com/55660350/204748821-4b2b4dc0-a218-4eec-8fc2-c634d68d2f9d.png)
+
+## Create a Runbook
+
+Go to **Azure** -> **Azure Automation Account** -> ** Process Automation** -> **Runbooks** -> **Create a runbook* -> add Name and select PowerShell as Runbook type -> Create
 
 
 
