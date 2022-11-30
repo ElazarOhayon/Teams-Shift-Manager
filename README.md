@@ -98,7 +98,9 @@ type **"Teams"** and import the Microsoft teams module.
 
 ![image](https://user-images.githubusercontent.com/55660350/203354049-af11f390-a7d3-47e4-89de-374853e00731.png)
 
-do the same steps for the "Microsoft.Graph" module.
+ **same steps for the "Microsoft.Graph" module.**
+![image](https://user-images.githubusercontent.com/55660350/204786392-66a28595-8b55-4d55-b93d-833fa40ca661.png)
+
 
 
 ### Add Azure Automation Credentials
@@ -124,10 +126,22 @@ we need to set Credentials to be used by Azure Automation into our Runbooks.
 
 Go to **Azure** -> **Azure Automation Account** -> ** Process Automation** -> **Runbooks** -> **Create a runbook* -> add Name and select PowerShell as Runbook type ->** Create**
 
-Copy and Paste the following code into the Runbook and publish after you. be sure to replace **<AzureAutomationCredential>** with your own values.
+Copy and Paste the following Script into the Runbook and you be sure to replace **<AzureAutomationCredential>** with your own values.
 it should be your Credential name that you created before in **Azure Credential**.
-
+before you publish the scripts you need fill your information in the script (Azure Credential name,name of the queue,etc.) 
+  
+ **Azure Credential**
 ![image](https://user-images.githubusercontent.com/55660350/204783866-61a4c688-777b-4684-acdb-9108d1038f19.png)
+  
+You need to provide the parameters of your App registration (What you created above(.
+  
+  * **tenantId** - provide your Office 365 Tenant Id or Tenant Domain Name.
+  * **ClientID** - Provide Azure AD Application (client) Id of your app
+  * **clientSecret* - Provide Application client **secret key**
+  
+  ![image](https://user-images.githubusercontent.com/55660350/204787533-26229f1b-d594-4a83-b1da-b9ebde1021c8.png)
+
+  
 
 
 
