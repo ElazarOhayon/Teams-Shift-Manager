@@ -137,13 +137,15 @@ You need to provide the parameters of your App registration (What you created ab
   
   * **tenantId** - provide your Office 365 Tenant Id or Tenant Domain Name.
   * **ClientID** - Provide Azure AD Application (client) Id of your app
-  * **clientSecret* - Provide Application client **secret key**
+  * **clientSecret** - Provide Application client **secret key**
   
   ![image](https://user-images.githubusercontent.com/55660350/204787533-26229f1b-d594-4a83-b1da-b9ebde1021c8.png)
 
+  please provide the Email address of your mailbox.(**example** - name@domain.com)
   
+  ![image](https://user-images.githubusercontent.com/55660350/204800353-d06f71a5-5a47-4094-8477-faf3a2095a3a.png)
 
-
+now we need to create incoming webhook 
 
 
 
