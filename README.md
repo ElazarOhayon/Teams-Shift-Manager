@@ -173,9 +173,12 @@ Copy the **URL**.
     please add your **Call queue Identity** (guid Identity) Example below :
   ![image](https://user-images.githubusercontent.com/55660350/204804915-835bcceb-6381-415d-be46-2eb4bc054ee1.png)
 
-also add again your Call queue Identity here (guid Identity) Example below :
+ add again your Call queue Identity here (guid Identity) Example below :
 ![image](https://user-images.githubusercontent.com/55660350/204805078-4a0c84d1-b9e6-45ee-92a4-e5d50894cc88.png)
   
+  please type your *title* for the Message Card.
   
+  ![image](https://user-images.githubusercontent.com/55660350/205995985-b13ac008-4b85-4942-a769-116602bc70fd.png)
+
  
  
