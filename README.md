@@ -198,14 +198,18 @@ Copy the **URL**.
   ![image](https://user-images.githubusercontent.com/55660350/206185008-32251119-52e7-4452-a6aa-948eee74df1e.png)
   
   Click on **"Add a Schedule**
+  
   ![image](https://user-images.githubusercontent.com/55660350/206185287-225341e8-ab0d-4109-94e7-d23e9f48b565.png)
-  Click on **"Link a schedule to your runbook"**
+  
+  Click on **"Link a schedule to your runbook"** and **add a Schedule**
+  
   ![image](https://user-images.githubusercontent.com/55660350/206185339-3a9bd0a5-38fb-4c78-87db-4f751c18a59b.png)
 
 
+  you can run the script on Recurring mode by Hour,day,week(you can choose dayofweek),Month
   
-  
-  
+  ![image](https://user-images.githubusercontent.com/55660350/206185936-6af8e385-0446-472a-a76f-4851fa3c71d3.png)
+
 
   
   
