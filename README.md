@@ -229,11 +229,18 @@ Copy the **URL**.
   
   # Test Runbook
 
-* Create event on your **outlook calendar** with the relevant agents.
+* Create an event on your **outlook calendar** with the relevant agents.
 * Run the runbook by click on **"Start"** 
   ![image](https://user-images.githubusercontent.com/55660350/206194251-58ea9d48-993b-48d1-aedd-d16e5f4b968f.png)
 
-*   
+*   Check the job Status if Completed or faild.(you can click on the Status to see more info)
+
+  ![image](https://user-images.githubusercontent.com/55660350/206194779-0d76841d-808d-4adf-8272-9d6ee264d338.png)
+  
+  **you can see full Output and Errors,Warnings Etc.**
+ 
+  ![image](https://user-images.githubusercontent.com/55660350/206195867-1cf289d8-db5f-4fa9-83b2-2e413ce0fa20.png)
+
 
  
  
