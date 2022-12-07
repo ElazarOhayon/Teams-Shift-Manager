@@ -144,7 +144,7 @@ You need to provide the parameters of your App registration (What you created ab
   
   ![image](https://user-images.githubusercontent.com/55660350/204787533-26229f1b-d594-4a83-b1da-b9ebde1021c8.png)
 
-  please provide the Email address of your mailbox.(**example** - name@domain.com)
+  please provide the Email address of your Shift mailbox.(**example** - name@domain.com)
   
   ![image](https://user-images.githubusercontent.com/55660350/204800353-d06f71a5-5a47-4094-8477-faf3a2095a3a.png)
 
@@ -212,9 +212,19 @@ Copy the **URL**.
    
   ![image](https://user-images.githubusercontent.com/55660350/206189640-4bc386fe-5a8c-45f9-93cf-70c5b8e3c2e9.png)
 
+  # Manage shift by calendar
   
+  * Open outlook calendar and **create event** 
+  ![image](https://user-images.githubusercontent.com/55660350/206191424-e50c87e2-6466-48ac-b355-72b023d9d648.png)
 
+## type full Email address of the agents ( you can add **Multipale agants** by Add a comma between each user or add one user)
+  ![image](https://user-images.githubusercontent.com/55660350/206191630-b88235b1-9229-4f6b-bc2e-dc946b930fa4.png)
 
+ ### This way you will be able to manage a shift at a regular schedule
+  
+  # Test
+
+* 
   
   
  
