@@ -186,6 +186,11 @@ Copy the **URL**.
  **please type your *title* for the Message Card.**
   
   ![image](https://user-images.githubusercontent.com/55660350/205995985-b13ac008-4b85-4942-a769-116602bc70fd.png)
+  
+after you fill all the relevant information on the script **Click on Publish**
+  
+ ![image](https://user-images.githubusercontent.com/55660350/206184384-656e023b-1e6f-47b0-b5e2-3868e27f56d2.png)
+ 
 
  
  
