@@ -166,17 +166,21 @@ Copy the **URL**.
   
   now we need to go back to the script that we already published above.
   
-  plesae provide the URI of the incoming webhook.
+  ## plesae provide the URI of the incoming webhook.
 
 ![image](https://user-images.githubusercontent.com/55660350/204804075-a863ed34-5c0a-4f63-b923-88138491ec7a.png)
-  
-    please add your **Call queue Identity** (guid Identity) Example below :
+
+## **plesae change the script to your timezone(you can check it by run : get-timezone and copy the Id to variable $TimeZone).**
+
+![image](https://user-images.githubusercontent.com/55660350/206155110-c79f4c30-f405-4bd0-a9a7-3edbede99eac.png)
+
+ ** please add your **Call queue Identity** (guid Identity) Example below : **
   ![image](https://user-images.githubusercontent.com/55660350/204804915-835bcceb-6381-415d-be46-2eb4bc054ee1.png)
 
- add again your Call queue Identity here (guid Identity) Example below :
+** add again your Call queue Identity here (guid Identity) Example below :**
 ![image](https://user-images.githubusercontent.com/55660350/204805078-4a0c84d1-b9e6-45ee-92a4-e5d50894cc88.png)
   
-  please type your *title* for the Message Card.
+ ** please type your *title* for the Message Card.**
   
   ![image](https://user-images.githubusercontent.com/55660350/205995985-b13ac008-4b85-4942-a769-116602bc70fd.png)
 
