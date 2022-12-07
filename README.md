@@ -7,6 +7,11 @@ with Microsoft Graph we get data from the calendar and filter the relevant infor
 We schedule the script to be daily or weekly depending on your requirements.
 Also, with incoming webhook we send you a message on the Teams Channel when the script assigned the agents (if you didn't write any information on the calendar the bot will send you a message)
 
+# Preview
+
+
+https://user-images.githubusercontent.com/55660350/206219876-15f65605-236a-416e-8b5c-d2348742245f.mp4
+
 
 
 # Requirements
