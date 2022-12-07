@@ -97,13 +97,17 @@ So with the **500 free minutes**, you should be able to automate most of your da
 
 now after we have **Azure Automation Account**.
 we have to add the PowerShell modules used in our Runbooks scripts.
-Click on **"Browse gallery"**.
+
+* Click on **"Browse gallery"**.
+
 ![image](https://user-images.githubusercontent.com/55660350/203353935-dc61d9b6-eb64-4151-a4c3-f3933dd1597d.png)
-type **"Teams"** and import the Microsoft teams module.
+
+* type **"Teams"** and import the Microsoft teams module.
 
 ![image](https://user-images.githubusercontent.com/55660350/203354049-af11f390-a7d3-47e4-89de-374853e00731.png)
 
  **same steps for the "Microsoft.Graph" module.**
+ 
 ![image](https://user-images.githubusercontent.com/55660350/204786392-66a28595-8b55-4d55-b93d-833fa40ca661.png)
 
 
