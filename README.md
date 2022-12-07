@@ -1,4 +1,5 @@
-# Shift-Manger-for-Teams
+# Shift-Manager-Teams
+
 ### Description
 
 As a result of numerous inquiries for Shift manager in Microsoft Teams. by Using a mailbox calendar, I made automation shifts in Microsoft Teams Auto attended or Call queues.
