@@ -9,7 +9,7 @@ Also, with incoming webhook we send you a message on the Teams Channel when the 
 
 
 # Requirements
-* we using Microsoft.Graph,MicrosoftTeams moudles you need to import them to Azure Automation.
+* we using **Microsoft.Graph,MicrosoftTeams** moudles you need to import them to Azure Automation.
 * the user need to be without mfa and with teams communications administrator.
 
 
@@ -214,15 +214,20 @@ Copy the **URL**.
 
   # Manage shift by calendar
   
-  * Open outlook calendar and **create event** 
+  * Open outlook calendar and **Create Event** 
+  
   ![image](https://user-images.githubusercontent.com/55660350/206191424-e50c87e2-6466-48ac-b355-72b023d9d648.png)
 
-## type full Email address of the agents ( you can add **Multipale agants** by Add a comma between each user or add one user)
+ Type **Email address** of the agents ( you can add **Multipale agants** by Add a **comma** between each user or add one user)
+  
+  ## Example:
+  
   ![image](https://user-images.githubusercontent.com/55660350/206191630-b88235b1-9229-4f6b-bc2e-dc946b930fa4.png)
 
+  
  ### This way you will be able to manage a shift at a regular schedule
   
-  # Test
+  # Test Runbook
 
 * 
   
