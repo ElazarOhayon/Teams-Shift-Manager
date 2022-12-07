@@ -187,10 +187,27 @@ Copy the **URL**.
   
   ![image](https://user-images.githubusercontent.com/55660350/205995985-b13ac008-4b85-4942-a769-116602bc70fd.png)
   
-#after you fill all the relevant information on the script **Click on Publish**
+## after you fill all the relevant information on the script **Click on Publish**
   
  ![image](https://user-images.githubusercontent.com/55660350/206184384-656e023b-1e6f-47b0-b5e2-3868e27f56d2.png)
  
+ # Schedules tasks Azure Automation 
+  
+  Go to > **Schedules**
+  
+  ![image](https://user-images.githubusercontent.com/55660350/206185008-32251119-52e7-4452-a6aa-948eee74df1e.png)
+  
+  Click on **"Add a Schedule**
+  ![image](https://user-images.githubusercontent.com/55660350/206185287-225341e8-ab0d-4109-94e7-d23e9f48b565.png)
+  Click on **"Link a schedule to your runbook"**
+  ![image](https://user-images.githubusercontent.com/55660350/206185339-3a9bd0a5-38fb-4c78-87db-4f751c18a59b.png)
 
+
+  
+  
+  
+
+  
+  
  
  
