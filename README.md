@@ -206,7 +206,7 @@ Copy the **URL**.
   ![image](https://user-images.githubusercontent.com/55660350/206185339-3a9bd0a5-38fb-4c78-87db-4f751c18a59b.png)
 
 
-  you can run the script on Recurring mode by Hour,day,week(you can choose dayofweek),Month
+  you can run the script on **Recurring mode** by **Hour,day,week (you can choose dayofweek),Month.**
   
   ![image](https://user-images.githubusercontent.com/55660350/206185936-6af8e385-0446-472a-a76f-4851fa3c71d3.png)
 
