@@ -1,7 +1,10 @@
 # Shift-Manger-for-Teams
 ### Description
 
-As a result of numerous inquiries for Shift manager in Microsoft Teams. Using a mailbox calendar, I made automation shifts in Microsoft Teams Auto attended or Call queues. with Microsoft Graph we get data from the calendar and filter the relevant information. we are using Aure automation (SaaS) without dependence on a local on-premise side. We schedule the script to be daily or weekly depending on your requirements. also, we building an incoming webhook that sends you a message on the Teams Channel when the script assigned the agents (if you didn't write any information on the calendar he also send you a message)
+As a result of numerous inquiries for Shift manager in Microsoft Teams. by Using a mailbox calendar, I made automation shifts in Microsoft Teams Auto attended or Call queues.
+with Microsoft Graph we get data from the calendar and filter the relevant information. we are using Aure automation (SaaS) without dependence on a local on-premise side.
+We schedule the script to be daily or weekly depending on your requirements.
+Also, with incoming webhook we send you a message on the Teams Channel when the script assigned the agents (if you didn't write any information on the calendar the bot will send you a message)
 
 
 
