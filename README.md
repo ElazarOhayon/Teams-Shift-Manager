@@ -191,7 +191,7 @@ Copy the **URL**.
   
  ![image](https://user-images.githubusercontent.com/55660350/206184384-656e023b-1e6f-47b0-b5e2-3868e27f56d2.png)
  
- # Schedules tasks Azure Automation 
+ # Schedules tasks with Azure Automation 
   
   Go to > **Schedules**
   
@@ -229,8 +229,11 @@ Copy the **URL**.
   
   # Test Runbook
 
-* 
-  
-  
+* Create event on your **outlook calendar** with the relevant agents.
+* Run the runbook by click on **"Start"** 
+  ![image](https://user-images.githubusercontent.com/55660350/206194251-58ea9d48-993b-48d1-aedd-d16e5f4b968f.png)
+
+*   
+
  
  
