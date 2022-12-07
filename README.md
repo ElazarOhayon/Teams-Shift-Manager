@@ -177,7 +177,7 @@ Copy the **URL**.
 
 ![image](https://user-images.githubusercontent.com/55660350/206155110-c79f4c30-f405-4bd0-a9a7-3edbede99eac.png)
 
- * please add your **Call queue Identity** (guid Identity) Example below : *
+ **please add your **Call queue Identity** (guid Identity) Example below** :
   ![image](https://user-images.githubusercontent.com/55660350/204804915-835bcceb-6381-415d-be46-2eb4bc054ee1.png)
 
  **add again your Call queue Identity here (guid Identity) Example below** :
