@@ -241,6 +241,13 @@ Copy the **URL**.
  
   ![image](https://user-images.githubusercontent.com/55660350/206195867-1cf289d8-db5f-4fa9-83b2-2e413ce0fa20.png)
 
+when the script **" Completed"** you will get notification on the teams channel with all the inforamtion.
+  
+  ![image](https://user-images.githubusercontent.com/55660350/206196598-71ff1eac-4365-463f-a47d-33dcc8f28aed.png)
 
- 
+## if you Don't fill a daily event you will get You will receive a message.
+  
+  ![image](https://user-images.githubusercontent.com/55660350/206196855-67231788-d790-4d21-a0d7-22432259dcca.png)
+
+  
  
