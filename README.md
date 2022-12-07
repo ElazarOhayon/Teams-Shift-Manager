@@ -214,11 +214,12 @@ Copy the **URL**.
 
   # Manage shift by calendar
   
+  * **note** The calendar mailbox should be specific for shift management.
   * Open outlook calendar and **Create Event** 
   
   ![image](https://user-images.githubusercontent.com/55660350/206191424-e50c87e2-6466-48ac-b355-72b023d9d648.png)
 
- Type **Email address** of the agents ( you can add **Multipale agants** by Add a **comma** between each user or add one user)
+ # Type **Email address** of the agents ( you can add **Multipale agants** by Add a **comma** between each user or add one user)
   
   ## Example:
   
@@ -246,7 +247,7 @@ when the script **" Completed"** you will get notification on the teams channel 
   
   ![image](https://user-images.githubusercontent.com/55660350/206196598-71ff1eac-4365-463f-a47d-33dcc8f28aed.png)
 
-## if you Don't fill a daily event you will get You will receive a message.
+## if you Don't fill a daily event You will receive a message.
   
   ![image](https://user-images.githubusercontent.com/55660350/206196855-67231788-d790-4d21-a0d7-22432259dcca.png)
 
