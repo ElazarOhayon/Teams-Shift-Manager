@@ -254,7 +254,7 @@ when the script **" Completed"** you will get notification on the teams channel 
   
   ![image](https://user-images.githubusercontent.com/55660350/206196598-71ff1eac-4365-463f-a47d-33dcc8f28aed.png)
 
-## if you Don't fill a daily event You will receive a message.
+## Note -"if you don't fill a daily event You will receive a message".
   
   ![image](https://user-images.githubusercontent.com/55660350/206196855-67231788-d790-4d21-a0d7-22432259dcca.png)
 
