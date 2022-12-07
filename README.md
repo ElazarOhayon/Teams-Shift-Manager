@@ -15,55 +15,57 @@ Also, with incoming webhook we send you a message on the Teams Channel when the 
 
 # Creating App registration.
 
-Go to **App registration** in Azure. 
->Choose name and select **Register**.
+* Go to **App registration** in Azure. 
+
+* Choose **name** and select **Register**.
 
 ![image](https://user-images.githubusercontent.com/55660350/202478020-c38e1743-d4d2-4955-b5ad-57655bfeede6.png)
 
 ![image](https://user-images.githubusercontent.com/55660350/202477598-b1498f1c-dea9-4ffe-b023-f7fe6c9c5c82.png)
 
-Click on : **"API permissions"** 
+* Click on : **"API permissions"** 
 
 ![image](https://user-images.githubusercontent.com/55660350/202478758-55454083-836b-4c94-a3f3-19d01b91db44.png)
 
   click on **add a permission**
   
- Choose **Microsoft Graph** 
+ * Choose **Microsoft Graph** 
  
   ![image](https://user-images.githubusercontent.com/55660350/202479493-280dbbc9-3ea4-4b3e-8df2-47c04520590f.png)
 
-Choose **Application permissions**
+* Choose **Application permissions**
 
 ![image](https://user-images.githubusercontent.com/55660350/202479721-dcbc9e5e-0cf0-4813-813f-8c7261455630.png)
 
-Choose **Calenars.Read**
+* Choose **Calenars.Read**
 
 ![image](https://user-images.githubusercontent.com/55660350/202479888-122ec880-6717-4c55-b208-b5811740849f.png)
 
-Choose **Delegated permissions**
+* Choose **Delegated permissions**
 
 ![image](https://user-images.githubusercontent.com/55660350/202482470-464f4fa5-300c-4aea-bfba-bbc67a1dcd7f.png)
 
-Choose **User.read**
+* Choose **User.read**
 
 ![image](https://user-images.githubusercontent.com/55660350/202483050-a1835f2f-698d-43f7-abf8-184b8dafffe5.png)
 
-after you finish to adding the permissions.
+when you finish to adding the permissions.
+
 Click on **Grant admin consent..**
 
 ![image](https://user-images.githubusercontent.com/55660350/202483532-b2da338f-1fb1-4f8c-b7d0-8625262d58e3.png)
 
-Go to - **Certificates & secrets**
+* Go to - **Certificates & secrets**
 
 ![image](https://user-images.githubusercontent.com/55660350/202484534-41a19dc2-70b6-45f5-9990-f965ee747612.png)
 
-Create a **New Client secret**
+* Create a **New Client secret**
 
 ![image](https://user-images.githubusercontent.com/55660350/202484968-548df1a7-8aff-4287-8c62-2a64af2d23e8.png)
 
 ## please copy the Value it will be available only once (we will use with Value later in the script)
 
-go to **Overview**
+* go to **Overview**
 
 ![image](https://user-images.githubusercontent.com/55660350/202486451-1407ab38-323c-46f0-af9e-a500d416da3c.png)
 
@@ -144,7 +146,7 @@ You need to provide the parameters of your App registration (What you created ab
   
   ![image](https://user-images.githubusercontent.com/55660350/204787533-26229f1b-d594-4a83-b1da-b9ebde1021c8.png)
 
-  please provide the Email address of your Shift mailbox.(**example** - name@domain.com)
+*  please provide the Email address of your Shift mailbox.(**example** - name@domain.com)
   
   ![image](https://user-images.githubusercontent.com/55660350/204800353-d06f71a5-5a47-4094-8477-faf3a2095a3a.png)
 
@@ -153,19 +155,19 @@ You need to provide the parameters of your App registration (What you created ab
 now we build an incoming webhook that will send us a notification message after we change agents in the shift or send us a message if it's failed.
   
 
-open your teams click 3 dots next to the Team’s Name ->**Connectors**  
+* open your teams click 3 dots next to the Team’s Name ->**Connectors**  
 
 ![image](https://user-images.githubusercontent.com/55660350/204803340-78290d46-46f6-4fb9-b2a2-65c4dd87c568.png)
   
-  Choose **"Incoming Webhook"** and click on ** "Configure"**.
+* Choose **"Incoming Webhook"** and click on ** "Configure"**.
   
   ![image](https://user-images.githubusercontent.com/55660350/204803413-c56acfa8-3dab-4091-9fcc-c950a696c830.png)
 
-Choose a **name** and click **Create**
+* Choose a **name** and click **Create**
   
  ![image](https://user-images.githubusercontent.com/55660350/204803522-c35e695e-a43f-4752-91ad-aea92884f167.png)
  
-Copy the **URL**.
+* Copy the **URL**.
   
   now we need to go back to the script that we already published above.
   
@@ -181,6 +183,7 @@ Copy the **URL**.
   ![image](https://user-images.githubusercontent.com/55660350/204804915-835bcceb-6381-415d-be46-2eb4bc054ee1.png)
 
  **add again your Call queue Identity here (guid Identity) Example below** :
+  
 ![image](https://user-images.githubusercontent.com/55660350/204805078-4a0c84d1-b9e6-45ee-92a4-e5d50894cc88.png)
   
  **please type your *title* for the Message Card.**
@@ -193,20 +196,20 @@ Copy the **URL**.
  
  # Schedules tasks with Azure Automation 
   
-  Go to > **Schedules**
+ * Go to > **Schedules**
   
   ![image](https://user-images.githubusercontent.com/55660350/206185008-32251119-52e7-4452-a6aa-948eee74df1e.png)
   
-  Click on **"Add a Schedule**
+ * Click on **"Add a Schedule**
   
   ![image](https://user-images.githubusercontent.com/55660350/206185287-225341e8-ab0d-4109-94e7-d23e9f48b565.png)
   
-  Click on **"Link a schedule to your runbook"** and **add a Schedule**
+ * Click on **"Link a schedule to your runbook"** and **add a Schedule**
   
   ![image](https://user-images.githubusercontent.com/55660350/206185339-3a9bd0a5-38fb-4c78-87db-4f751c18a59b.png)
 
 
-  you can run the script on **Recurring mode** by **Hour,day,week (you can choose dayofweek),Month.**
+ * you can run the script on **Recurring mode** by **Hour,day,week (you can choose dayofweek),Month.**
   
   ![image](https://user-images.githubusercontent.com/55660350/206185936-6af8e385-0446-472a-a76f-4851fa3c71d3.png)
    
