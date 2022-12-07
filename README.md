@@ -225,12 +225,13 @@ Copy the **URL**.
   ![image](https://user-images.githubusercontent.com/55660350/206191630-b88235b1-9229-4f6b-bc2e-dc946b930fa4.png)
 
   
- ### This way you will be able to manage a shift at a regular schedule
+ ### in this way you will be able to manage a shift at a regular schedule
   
   # Test Runbook
 
 * Create an event on your **outlook calendar** with the relevant agents.
 * Run the runbook by click on **"Start"** 
+  
   ![image](https://user-images.githubusercontent.com/55660350/206194251-58ea9d48-993b-48d1-aedd-d16e5f4b968f.png)
 
 *   Check the job Status if Completed or faild.(you can click on the Status to see more info)
